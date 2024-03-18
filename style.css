@@ -1,0 +1,418 @@
+ *{
+   padding: 0px;
+    margin: auto  0px;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+.clearfix{
+    clear: both;
+    content: "";
+}
+.head-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar  ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    margin-left: 29vh;
+    justify-content: space-between;
+}
+ .nav-bar ul li{
+    justify-content: space-between;
+    align-items: center;
+}
+.icon i{
+    display: none;
+    width: 39px;
+    height: 30px;
+}
+.head-btn button{
+    background-color: #e21919;
+    padding: 11px 24px;
+    color: #fff;
+    border-radius: 8px;
+    border-color: #e21919;
+}
+.container{
+    margin-top: 85px;
+    
+    display: flex;
+    
+    justify-content: space-around; 
+ }
+#main-relative{
+    display: flex;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 3rem; 
+    margin-top: 58px;
+}
+.container p{
+    
+    line-height: 24px ;
+    margin-bottom: 35px;
+    margin-top: 38px;
+    font-size: 18px;
+    color: grey;
+}
+.relative-btn{
+    display: flex;
+}
+.S-C-btn{
+   padding: 12px 10px;
+   font-size: 18px;
+   background-color: blue;
+   color:white;
+   border-color: blue;
+}
+.S-C-btn-2 {
+    padding: 12px 10px;
+    font-size: 18px;
+    background-color: rgb(240, 240, 243)241, 241, 250;
+    color:black;
+    border-color: white;
+    margin-left: 12px;
+}
+#img-container{
+    position: relative;
+}
+#img-container>img{
+     flex: 1;
+     
+     z-index: 2;
+}
+/* .img-sub-cont{
+    background-color:blue ;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    width: 50%;
+    opacity: 1;
+    overflow: hidden;
+    height: 20rem;
+    position: absolute;
+    margin-top: 8rem;
+    z-index: 1; */
+    /* z-index: -5; */
+
+    
+/* } */
+#relative{
+    background-color: rgb(251, 249, 249);
+    margin-top: 7rem;
+}
+.Features h1 {
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 35px;
+}
+.Features p {
+    text-align: center;
+    line-height: 27px ;
+    margin-bottom: 35px;
+    margin-top: 38px;
+    font-size: 18px;
+    color: rgb(91, 89, 89);
+}
+.drag-drop-full-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-bottom: 7rem;
+    padding-top: 6rem;
+}
+.drag-and-drop-interface{
+    flex-direction: column;
+}
+.common-heading{
+    padding-top: 6rem;
+    font-size: 35px;
+}
+.common-para{
+    line-height: 27px ;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-size: 18px;
+    color: rgb(91, 89, 89);
+}
+.common-btn{
+    font-size: 18px;
+   background-color: blue;
+   color:white;
+   border-color: blue;
+   padding: 14px 19px;
+   border-radius: 12px;
+}
+.search-features-full-2{
+     display: flex;
+     justify-content: space-around;
+    padding-top: 8rem;
+     padding-bottom: 7rem;
+}
+.shareable-full-3-main{
+    display: flex;
+    justify-content: space-around;
+   padding-top: 8rem;
+    padding-bottom: 7rem;
+}
+.Download-extensions{
+    margin-bottom: 8rem;
+}
+.Download-extensions h1{
+    text-align: center;
+     font-size: 35px;
+    padding-bottom: 20px;
+}
+.Download-extensions p{
+    text-align: center;
+    line-height: 27px ;
+    font-size: 18px;
+    color: rgb(91, 89, 89);
+}
+.ex-btn-3-special{
+    font-size: 18px;
+    background-color: blue;
+    color:rgb(244, 241, 241);
+    border-color: blue;
+    padding: 13px 32px;
+    border-radius: 7px;
+}
+.Extensions-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Chrome-extension-1-version-62 p{
+   text-align: center;
+}
+.Chrome-extension-1-version-62{
+    margin-bottom: 4rem;
+    border: solid;
+    border-color: #fff;
+}
+.Chrome-extension-1-version-62 img{
+    width: 12rem;
+    height: 12rem;
+    align-items: center;
+}
+.Chrome-extension-1-version-62 h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.Firefox-extension-2-version-62 p{
+    text-align: center;
+}
+.Firefox-extension-2-version-62{
+   margin-top: 4rem;
+} 
+.Firefox-extension-2-version-62 h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.Opera-extension-2-version-62 p{
+    text-align: center;
+}
+.Opera-extension-2-version-62{
+    margin-top: 8rem;
+}
+.Opera-extension-2-version-62  h1{
+    padding-top: 10px;
+    text-align: center;
+}
+.Opera-extension-2-version-62 img{
+    width: 11rem;
+    height: 11rem;
+     
+}
+.FAQs-section-1{
+    background-color: rgb(251, 249, 249);
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.Drop-down-FAQs-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FAQs-section-1 h1{
+    text-align: center;
+     font-size: 35px;
+    padding-bottom: 20px;
+}
+.FAQs-section-1 p{
+    text-align: center;
+    line-height: 27px ;
+    font-size: 18px;
+}
+/* .Drop-down-FAQs-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.common-btn{
+   margin-top: 4rem;
+}
+.info-conatiern{
+    background-color: rgb(97, 97, 250);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+.info-sub-container p{
+     color: #fff;
+     text-align: center;
+     padding-bottom: 2rem;
+     padding-top:6rem;
+}
+.info-sub-container h3{
+    color: #fff;
+    padding-bottom: 2rem;
+}
+.l-btn-c-1{
+    background-color: #e21919;
+    padding: 11px 24px;
+    color: #fff;
+    border-radius: 8px;
+    border-color: #e21919; 
+    font-size: 18px;
+}
+.email-section1-btn-contact-1-last input{
+    padding: 10px 6rem;
+    font-size: 19px;
+    padding-left: 1rem;
+    border-radius: 6px;
+    border-color: #fff;
+    margin-right:1rem;
+}
+.footer-section{
+   background-color:rgb(36 42 69 ) ; 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+  
+}
+.footer-sub-section{
+    display: flex;
+    justify-content: flex-start;
+
+    
+    
+}
+.footer-bookmark-img-2{
+    justify-content: flex-start;
+}
+.flex-start-uppercase-text-12 {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:5rem;
+    gap: 18px;
+}
+.Footer-img-section-div-1-l i{
+ justify-content: flex-end;
+}
+
+.Cursor-pointer{
+   list-style-type: none;
+}
+/* phone screen */
+@media screen  and (min-width:0px) and (max-width:480px){
+    .head-container{
+        
+        width: 100%;
+    }
+    .nav-bar{
+        
+        display: none;
+        width: 100%;
+    }
+    
+    .icon i{
+        display: block !important;
+        width: 100%;
+    }
+    .head-btn{
+        display: none;
+        width: 100%;
+    }
+}
+/* TABLET Screen  */
+@media screen  and (min-width:481px) and (max-width:768px){
+    .head-container{
+        
+        width: 100%;
+    }
+    .nav-bar{
+        
+        display: none;
+    }
+    
+    .icon i{
+        display: block !important;
+    }
+    .head-btn{
+        display: none;
+    }
+}
+/* Laptop Screen */
+@media screen  and (min-width:769px) and (max-width:1279px){
+    .head-container{
+        overflow: hidden;
+        width: 100%;
+    }
+    .nav-bar{
+        
+        display: inline;
+    }
+    
+    .icon i{
+        display: none;
+    }
+    .head-btn{
+        display: inline;
+    }
+}
+/* phone screen */
+@media screen  and (min-width:0px) and (max-width:480px){
+    .container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        overflow: hidden;
+        width: 100%;
+       
+    }
+    #main-relative{
+        flex-direction: column;
+        display: block;
+        overflow: hidden;
+        justify-content: center;
+        width: 100%;
+    }
+    .relative-btn{
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    #img-container{
+        display: block;
+        flex-direction: column;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+
